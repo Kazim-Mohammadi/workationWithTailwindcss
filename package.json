@@ -1,17 +1,17 @@
 {
-  "name": "tailwind",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "autoprefixer": "^10.3.3",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.2.8"
-  }
+    "name": "tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss build -i css/tailwind.css -o public/build/tailwind.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.3.4",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.2.9"
+    }
 }
